@@ -1,0 +1,61 @@
+header:
+    name
+    profession: BACK-END WEB DEVELOPER / NODE JS DEVELOPER
+
+contact:
+    address: 251-D Prudecio St. Sampaloc, Manila
+    phone , email address
+    website: https://jerrycram21.github.io/marcportfolio/
+    LinkedIn
+
+Professional Summary:
+Logical and results-driven Web Developer dedicated to building and
+optimizing user-focused websites for customers with various business
+objectives with more than 3 years of experience in back-end web development.
+Passionate, hardworking coder, great team player and analytical problem
+solver with calm and focused demeanor.
+
+Work History:
+    Job title: Jr. Web Developer
+    Employer: SysNet Integrators, Inc.
+    City: Makati, City
+    Start - End Date: Sep 2017 - Current
+    What did you do?
+        Designs, implements and monitors web pages, plugins and functionality for continuous improvement.
+        Research new technologies and software packages for use in website projects.
+        Collaborates with in-house front-end developers to create sleek and innovative UI/UX.
+        Reviews code to validate structures, assess security and verify browser, device and operating system compatibility.
+        Optimizes codes for speed and performance.
+        Takes concepts and produces design mockups and prototypes to strengthen designs, enhance user experiences and improve site interactions.
+        Collaborates with IT team, front-end, IOS and android developers, representing web team to establish project goals, projections and milestones.
+        Plans and engineers RESTful APIs to manipulate dynamic datasets on a project collaboration.
+        Creates 2-3 projects per year with a team on an agile methodology as practice.
+        Develops landing pages, dashboards, ride hailing applications, WiFi/data calling, live chat, online applications and REST APIs using Node.js for web applications, MySQL/PostgreSQL for databases and Nginx for web server.
+
+Skills:
+    Agile Workflow
+    Fast Learner
+    Interpersonal
+    Web Analytics
+    Technical Analysis
+    Testing and Debugging
+    Back-end
+    Front-end basics
+
+Education Summary:
+    Primary: General Licerio Geronimo Elementary School (2003-2009)
+    Secondary: Sta. Catalina College (2009-2013)
+    Tertiary: UST Angelicum College, BSCS (2013-2017)
+        Dean's List 1st year 1st semester 2013 and 4th year 1st semester 2017
+        Received 2-time 50% scholarship (Dean's Lister)
+        Awarded Best Thesis titled: Web-Based Occupational Interest Schedule for Angelicum College Guidance Counseling Department
+
+Languages, Frameworks, Libraries, Tools:
+    HTML5 / CSS3 / JS / Linux(uses C language),
+    Node.js & Express.js ,
+    jQuery / Bootstrap / NPM(libraries of node js),
+    NginX(web server, reverse proxy, load balancer, mail proxy and HTTP cache), 
+    Git(version control system that keep track of your source code history)/
+    Github(cloud-based hosting service that lets you manage Git repositories)/
+    Gitlab(more focused on offering a features-based system with a centralized, integrated platform for web developers) , 
+    Docker(Container tools that deploys as one package), , Ms Visual Studio Code/Sublime(code editors)
