@@ -17,6 +17,7 @@
   <link href="css/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
   <link href="css/simple-line-icons.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
 
   <!-- Custom CSS -->
   <link href="css/stylish-portfolio.min.css" rel="stylesheet">
@@ -41,17 +42,26 @@
         <a class="js-scroll-trigger" href="#routine">Routine</a>
       </li>
       <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#work">Work Experiences</a>
+      </li>
+      <li class="sidebar-nav-item">
         <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
       </li>
       <li class="sidebar-nav-item">
         <a class="js-scroll-trigger" href="#skills">Skills</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#honor">Awards and honors</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#contact">Contact</a>
       </li>
     </ul>
   </nav>
 
   <!-- Header -->
   <header class="masthead d-flex">
-    <div class="container text-center my-auto">
+    <div class="container text-center text-white my-auto">
       <h1 class="mb-1">Marc's Web Portfolio</h1>
       <h3 class="mb-5">
         <em>< BACK-END WEB DEVELOPER / NODE JS DEVELOPER></em>
@@ -65,16 +75,21 @@
   </header>
 
   <!-- About -->
-  <section class="content-section bg-light" id="about">
+  <section class="content-section-marc bg-light-custom" id="about">
     <div class="container text-center">
       <div class="row">
         <div class="col-lg-10 mx-auto">
           <h2>Who is Jerry Marc Hermoso?</h2>
-          <p class="lead mb-5">The office name is Marc but he's Macmac at home. 
-          A 24 year old boy who has been in the programming industry doing back-end web development for 3 and a half years. <br>
-          He is the 2 time Alpha awardee(top employee of the year (2018 & 2019)) at Sysnet Integrators. <br>
-          He also got the best thesis award and a 2x Dean's Lister in his college years. <br>
-          Now, currently working his way to be better in all aspect of web development. </p>
+          <p class="about-txt mb-5">Jerry Marc is a <b>Junior Web Developer</b> with <b>more than 4 years of experience</b> working for SysNet Integrators, Inc. 
+            He is an achiever having been a 2-time Alpha awardee of SysNet. The award is given to top employees who display punctuality and effectiveness in work.
+            He enjoys using <b>Node.js</b> as his back-end web language and <b>SQL</b> as his database management, <b>Git</b> for his version control
+            and <b>Windows</b> for his computer OS.</p>
+          <p class="about-txt mb-5">Marc graduated from UST-Angelicum College in 2017 with a <b>Bachelor's Degree in Computer Science</b>. 
+            During college, his team earned the <b>Best Thesis Award</b>. He was also a <b>2-time Dean's Lister</b>. </p>
+          <p class="about-txt mb-5">He is 24 years old and is yearning to learn new things and expand his knowledge to be able to achieve his goals. 
+            His definition of success is, "it's the result of hard work, learning from failures and persistence." </p>
+          <p class="about-txt mb-5">But it is not all work for Marc.  On his free time, Marc likes to watch movies and TV series, 
+            travel with friends, eat his favorite foods like seafood, pasta and pizza. He also plays basketball and video games in PS4 and goes biking on weekends.</p>
           <a class="btn btn-dark btn-xl js-scroll-trigger" href="#me">Know More</a>
         </div>
       </div>
@@ -83,126 +98,120 @@
 
   <!--Carousel Wrapper-->
   <section id="me">
-  <div id="carousel-example-2" class="carousel slide carousel-fade z-depth-1-half" data-ride="carousel">
-    <!--Indicators-->
-    <ol class="carousel-indicators">
-      <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
-      <li data-target="#carousel-example-2" data-slide-to="1"></li>
-      <li data-target="#carousel-example-2" data-slide-to="2"></li>
-      <li data-target="#carousel-example-2" data-slide-to="3"></li>
-    </ol>
-    <!--/.Indicators-->
-    <!--Slides-->
-    <div class="carousel-inner" role="listbox">
-      <div class="carousel-item active">
-        <div class="view">
-          <img class="d-block w-100" src="img/office.jpg">
-          <div class="mask rgba-black-light"></div>
+    <div id="carousel-example-2" class="carousel slide carousel-fade z-depth-1-half" data-ride="carousel" data-interval="2000">
+      <!--Indicators-->
+      <!--ol class="carousel-indicators">
+        <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-2" data-slide-to="1"></li>
+        <li data-target="#carousel-example-2" data-slide-to="2"></li>
+        <li data-target="#carousel-example-2" data-slide-to="3"></li>
+      </ol-->
+      <!--/.Indicators-->
+      <!--Slides-->
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <div class="d-flex align-items-center justify-content-center min-vh-100">
+            <img class="" src="img/pic-sysnet.png">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-flex align-items-center justify-content-center min-vh-100">
+            <img class="" src="img/pic-college.png">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-flex align-items-center justify-content-center min-vh-100">
+            <img class="" src="img/pic-family.png">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-flex align-items-center justify-content-center min-vh-100">
+            <img class="" src="img/gf-pia.png">
+          </div>
+          <div class="carousel-caption">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-flex align-items-center justify-content-center min-vh-100">
+            <img class="" src="img/mvp.png">
+          </div>
         </div>
       </div>
-      <div class="carousel-item">
-        <div class="view">
-          <img class="d-block w-100" src="img/test.jpg">
-          <div class="mask rgba-black-light"></div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <div class="view">
-          <img class="d-block w-100" src="img/family2.jpg">
-          <div class="mask rgba-black-light"></div>
-        </div>
-        <div class="carousel-caption">
-          <h1 class="h3-responsive text-dark">Hermoso family</h1>
-          <p class='text-dark'>Mama Arlene • Kuya Francis • Ate Laarnie • Jerry Marc</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <div class="view">
-          <img class="d-block w-100" src="img/pia.jpg">
-        </div>
-        <div class="carousel-caption">
-          <img class="" src="img/pusheen.gif">
-        </div>
-      </div>
-      <div class="carousel-item">
-        <!--Mask color-->
-        <div class="view">
-          <img class="" src="img/giannis.jpg">
-          <img class="" src="img/giannis.gif">
-          <div class="mask rgba-black-light"></div>
-        </div>
-      </div>
+      <!--/.Slides-->
+      <!--Controls-->
+      <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon bg-light-custom" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+        <span class="carousel-control-next-icon bg-light-custom" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+      <!--/.Controls-->
     </div>
-    <!--/.Slides-->
-    <!--Controls-->
-    <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-    <!--/.Controls-->
-  </div>
   </section> 
-  
-<!--/.Carousel Wrapper-->
-  <!-- Services -->
-  <section class="content-section bg-primary text-white text-center">
+
+  <!-- Work Experiences -->
+  <section class="content-section-marc bg-primary text-white text-center" id="work">
     <div class="container">
       <div class="content-section-heading">
         <!--h3 class="text-secondary mb-0">free</h3-->
-        <h2 class="mb-5">My Daily Routine</h2>
+        <h2 class="mb-5">My Work Experiences</h2>
       </div>
-      <div class="row">
-        <div class="col-lg-2 col-md-6 mb-5 mb-lg-0">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="fas fa-pizza-slice"></i>
+      <div class="row justify-content-around">
+        <div class="col-xs-12 col-sm-6 col-lg-3">
+          <span class="service-icon rounded-circle mx-auto mb-3 bubble">
+            <p class='desc'><br>Designs, implements<br> 
+              and monitors web pages, plugins and
+              functionality for continuous improvement</p>
           </span>
-          <h4>
-            <strong>Eat</strong>
-          </h4>
-          <p class="text-faded mb-0">Seafood, Pasta, Pizza, Burger</p>
         </div>
-        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="fa fa-bed"></i>
+        <div class="col-xs-12 col-sm-6 col-lg-3">
+          <span class="service-icon rounded-circle mx-auto mb-3 bubble">
+            <p class='desc'><br>Research<br> new technologies and software packages for use in
+              website projects</p>
           </span>
-          <h4>
-            <strong>Sleep</strong>
-          </h4>
-          <p class="text-faded mb-0">6hrs on weekdays <br /> 12hrs on weekends</p>
         </div>
-        <div class="col-lg-2 col-md-6">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-eyeglass"></i>
+        <div class="col-xs-12 col-sm-6 col-lg-3">
+          <span class="service-icon rounded-circle mx-auto mb-3 bubble">
+            <p class="desc"><br>Collaborates<br> with in-house front-end developers to create sleek
+              and innovative UI/UX</p>
           </span>
-          <h4>
-            <strong>Code</strong>
-          </h4>
-          <p class="text-faded mb-0">JAVASCRIPT , SQL , GIT , LINUX , DOCKER</p>
         </div>
-        <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-social-dribbble"></i>
+        <div class="col-xs-12 col-sm-6 col-lg-3">
+          <span class="service-icon rounded-circle mx-auto mb-3 bubble">
+            <p class="desc"><br>Reviews code<br> to validate structures, assess security and verify
+              browser, device and operating system compatibility</p>
           </span>
-          <h4>
-            <strong>Play</strong>
-          </h4>
-          <p class="text-faded mb-0">Basketball, Bike, PS4</p>
-        </div>
-        <div class="col-lg-2 col-md-6">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-refresh"></i>
-          </span>
-          <h4>
-            <strong>Repeat</strong>
-          </h4>
-          <p class="text-faded mb-0">again</p>
         </div>
       </div>
-    </div>
+      <div class="row justify-content-around">
+        <div class="col-xs-12 col-sm-6 col-lg-3">
+          <span class="service-icon rounded-circle mx-auto mb-3 bubble">
+            <p class='desc'><br><br>Optimizes codes for speed and performance.</p>
+          </span>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-lg-3">
+          <span class="service-icon rounded-circle mx-auto mb-3 bubble">
+            <p class='desc'>Collaborates<br> with IT team, front-end,<br> IOS and android
+              developers, representing web team to establish project goals,
+              projections and<br> milestones.</p>
+          </span>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-lg-3">
+          <span class="service-icon rounded-circle mx-auto mb-3 bubble">
+            <p class="desc"><br>Plans and engineers<br> RESTful APIs to manipulate dynamic
+              datasets on a project collaboration.</p>
+          </span>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-lg-3">
+          <span class="service-icon rounded-circle mx-auto mb-3 bubble">
+            <p class="desc"><br>Creates 2-4 projects<br> per year with a team on an agile scrum
+              methodology as practice.</p>
+          </span>
+        </div>
+      </div>
+  </div>
   </section>
 
   <!-- Portfolio -->
@@ -252,8 +261,8 @@
           <a class="portfolio-item" href="https://riders.hypetrike.com/" target="_blank">
             <span class="caption">
               <span class="caption-content">
-                <h2>HYPETRIKE (WEB BASED)</h2>
-                <p class="mb-0">A web application and an IOS mobile application of Hypetrike. The app is for the passengers to book rides only.</p>
+                <h2>Trike.ph/booking (WEB BASED)</h2>
+                <p class="mb-0">A web application and an IOS mobile application of Trike.ph. The app is for the passengers to book rides and deliveries.</p>
               </span>
             </span>
             <img class="img-fluid" src="img/hypetrike-rider.jpg" alt="">
@@ -265,7 +274,7 @@
               <span class="caption-content">
                 <h2>VPMS(Vehicle Parking Management System) - Admin</h2>
                 <p class="mb-0">VPMS is a local web based system for managing parking permit virtually. 
-                  VPMS Admin manages parking cards for their tenants and guests and it also have different types of needed reports. 
+                  VPMS-Admin manages parking cards for their tenants and guests and it also have different types of needed reports. 
                 </p>
               </span>
             </span>
@@ -277,7 +286,7 @@
             <span class="caption">
               <span class="caption-content">
                 <h2>VPMS - Cashier</h2>
-                <p class="mb-0">VPMS Cashier is a local web based system for the payment of the tenants and guests. 
+                <p class="mb-0">VPMS-Cashier is a local web based system for the payment of the tenants and guests. 
                   Upon tapping the card before going out, it computes the rate of the  parking fee based on the amount of time the vehicle was parked. 
                   It also prints out receipt.
                 </p>
@@ -312,115 +321,148 @@
             <img class="img-fluid" src="img/freebee.jpg" alt="">
           </a>
         </div>
+        <div class="col-lg-6">
+          <a class="portfolio-item" href="https://cavitewifiadmin.wooh.ph/" target="_blank">
+            <span class="caption">
+              <span class="caption-content">
+                <h2>Cavite WiFi Registration Admin Portal</h2>
+                <p class="mb-0">Cavite Admin Portal is a LGU project that only verifies, rejects, extract registrants emails that
+                  would like to have an access on Cavite WiFi.
+                </p>
+              </span>
+            </span>
+            <img class="img-fluid" src="img/lgu.jpg" alt="">
+          </a>
+        </div>
       </div>
     </div>
     </div>
   </section>
 
-  <!-- Call to Action -->
-  <section class="content-section bg-primary text-white" id="skills">
+  <!-- Skills -->
+  <section class="content-section-marc bg-primary text-white" id="skills">
     <div class="w-100">
       <div class="content-section-heading text-center">
-        <h2 class="mb-5">Skills</h2>
+        <h2 class="mb-5">Technical Skills</h2>
 
-        <ul class="list-inline" style="font-size: 3rem;">
-          <div class="subheading mb-3" style="font-size: 1rem;">Front-end Programming Languages</div>
-          <li class="list-inline-item">
-            <i class="fab fa-html5" data-toggle="tooltip" data-placement="top" title="HTML 5"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-css3-alt" data-toggle="tooltip" data-placement="top" title="CSS 3"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-js-square" data-toggle="tooltip" data-placement="top" title="VANILLA JS , JQUERY"></i>
-          </li>
-          <li class="list-inline-item">
-            <i data-toggle="tooltip" data-placement="top" title="AJAX" style="font-size: 2rem;">AJAX</i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-bootstrap" data-toggle="tooltip" data-placement="top" title="BOOTSTRAP 4"></i>
-          </li>
-          <div class="subheading mb-3" style="font-size: 1rem;">Back-end Programming Languages &amp; Tools</div>
-          <li class="list-inline-item">
-            <i class="fab fa-node" data-toggle="tooltip" data-placement="top" title="NODE JS"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-npm" data-toggle="tooltip" data-placement="top" title="Node Package Manager"></i>
-          </li>
-          <li class="list-inline-item">
-            <i data-toggle="tooltip" data-placement="top" title="RESTful API" style="font-size: 2rem;">RestAPI</i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-linux" data-toggle="tooltip" data-placement="top" title="LINUX"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fas fa-cloud" data-toggle="tooltip" data-placement="top" title="CLOUD"></i>
-          </li>
-          <!--li class="list-inline-item">
-            <i class="fab fa-react" data-toggle="tooltip" data-placement="top" title="REACT JS"></i>
-          </li-->
-          <li class="list-inline-item">
-            <i class="fas fa-database" data-toggle="tooltip" data-placement="top" title="MYSQL , POSTGRESQL"></i>
-          </li>
-          <!--li class="list-inline-item">
-            <i class="fab fa-cc-paypal" data-toggle="tooltip" data-placement="top" title="PAYPAL"></i>
-          </li-->
-          <li class="list-inline-item">
-            <i class="fab fa-git-square" data-toggle="tooltip" data-placement="top" title="GIT , GITHUB , GITLAB"></i>
-          </li>
-          <li class="list-inline-item">
-            <i data-toggle="tooltip" data-placement="top" title="NGINX" style="font-size: 2rem;">NginX</i>
-          </li>
-        </ul>         
+        <div class="container">
+          <div class="row">
+            <div class="col-sm">
+              <div class="subheading font-2">Client Side</div>
+              <li class="list-inline-item mb-3">
+                <h3>HTML5 • CSS3 • JAVASCRIPT • JQUERY <br> DOM • AJAX • BOOTSTRAP5</h3>
+              </li>
+            </div>
+            <div class="col-sm">
+              <div class="subheading font-2">Server Side</div>
+              <li class="list-inline-item mb-3">
+                <h3>NODE.JS • EXPRESS • NPM • REST API • SOCKET.IO</h3>
+                <div class="w-100"></div>
+                <h3>MYSQL • POSTGRESQL</h3>
+              </li>
+            </div>
+            <div class="w-100"></div>
+            <div class="col-sm">
+              <div class="subheading font-2">Basic Tools</div>
+                <li class="list-inline-item mb-3">
+                  <div class="float-left">
+                    <span class="tab">OS: <h3>WINDOWS • LINUX </h3></span>
+                    <span class="tab">Web Servers: <h3>NGINX • PM2 </h3></span>
+                    <span class="tab">Text Editors: <h3>VS CODE • SUBLIME TEXT </h3></span>
+                  </div>
+                  <div class="float-right">
+                    <span class="tab">Web Browsers: <h3>CHROME • FIREFOX • SAFARI </h3></span>
+                    <span class="tab">Terminals: <h3>DEFAULT • GIT BASH </h3></span> 
+                    <span class="tab">Containers: <h3>DOCKER </h3></span> 
+                  </div>
+                  <div class="w-100">
+                    <span class="tab">Version Control & Repository: <h3>GIT • GITHUB • GITLAB </h3></span>
+                  </div>
+                </li>
+            </div>
+          </div>
+        </div>
 
-      <!--div class="subheading mb-3">Workflow</div>
-        <ul class="fa-ul mb-0">
-          <li>
-            <i class="fa-li fa fa-check" style="position: static !important;"></i>
-            Responsive Web Design</li>
-          <li>
-            <i class="fa-li fa fa-check" style="position: static !important;"></i>
-            Cross Browser Testing &amp; Debugging</li>
-          <li>
-            <i class="fa-li fa fa-check" style="position: static !important;"></i>
-            Cross Functional Teams</li>
-          <li>
-            <i class="fa-li fa fa-check" style="position: static !important;"></i>
-            Agile Development &amp; Scrum</li>
-        </ul>
-      </div-->
+        <div class="subheading font-2">Soft Skills</div>
+        <h3>Communication • Self-Motivation • Diligent • Team Player • Problem Solving • Punctual • Adaptability • Fast Learner • Willingness to Learn</h3>
     </div>
   </section>
 
-  <section class="content-section bg-secondary text-white text-center">
+  <!-- Awards and honors -->
+  <section class="content-section-marc text-center" id="honor">
+    <div class="container">
+      <div class="content-section-heading">
+        <!--h3 class="text-secondary mb-0">free</h3-->
+        <h2 class="mb-5">Awards and Honors</h2>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-6">
+          <h4>School</h4>
+          <img class="h-50 w-50" src="img/trophy.png">
+          <br>
+          <img class="img-35" src="img/medal-1.png">
+          <img class="img-35" src="img/medal-2.png">
+        </div>
+        <div class="col-xs-12 col-sm-6">
+          <h4>Work</h4>
+          <div class="row">
+            <div class="col-12">
+              <br><br>
+              <img class="h-100 w-50 d-inline-block float-left" src="img/certificate-2.png">
+              <img class="h-100 w-50 d-inline-block float-right" src="img/certificate-1.png">
+            </div>
+          </div>
+        </div>
+        <!--div class="frame">
+          <h4>School</h4>
+          <img class="h-50 w-50" src="img/trophy.png">
+          <br>
+          <img class="img-35" src="img/medal-1.png">
+          <img class="img-35" src="img/medal-2.png">
+        </div>
+        <div class="frame">
+          <h4>Work</h4>
+          <div class="row">
+            <div class="col-12">
+              <br><br>
+              <img class="h-100 w-50 d-inline-block float-left" src="img/certificate-2.png">
+              <img class="h-100 w-50 d-inline-block float-right" src="img/certificate-1.png">
+            </div>
+          </div>
+        </div-->
+      </div>
+    </div>
+  </section>
+
+  <section class="content-section-marc bg-primary text-center" id="contact">
     <div class="container">
       <div class="content-section-heading">
         <!--h3 class="text-secondary mb-0">free</h3-->
         <h2 class="mb-5">CONTACT • CALL • FOLLOW</h2>
       </div>
       <div class="row">
-        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=jerrymarc.hermoso@gmail.com" target="_blank"><i class="fab fa-google">mail</i></a>
+        <div class="col-lg-2 col-md-6 mb-5 mb-lg-0">
+          <span class="service-icon rounded-circle mx-auto mb-3" data-toggle="tooltip" data-placement="top" title="DOWNLOAD MY CV!">
+            <a href="Jerry's Resume_2021_official.pdf" target="_blank"> <i class="fas fa-file"></i>           
+            </a>
           </span>
-          <h4>
-            <strong></strong>
-          </h4>
         </div>
         <div class="col-lg-2 col-md-6 mb-5 mb-lg-0">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="fab fa-viber"></i>
+          <span class="service-icon rounded-circle mx-auto mb-3" data-toggle="tooltip" data-placement="top" title="EMAIL ME!">
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=jerrymarc.hermoso@gmail.com" target="_blank"><i class="fab fa-google">mail</i></a>
           </span>
-          <h4>
-            <strong>+639665312570</strong>
-          </h4>
+        </div>
+        <div class="col-lg-2 col-md-6 mb-5 mb-lg-0">
+          <span class="service-icon rounded-circle mx-auto mb-3" data-toggle="tooltip" data-placement="top" title="DM ME!">
+            <a href="viber://chat?number=09665312570"><i class="fab fa-viber"></i></a> 
+          </span>
         </div>
         <div class="col-lg-2 col-md-6">
-          <span class="service-icon rounded-circle mx-auto mb-3" data-toggle="tooltip" data-placement="top" title="FOLLOW ME!">
+          <span class="service-icon rounded-circle mx-auto mb-3" data-toggle="tooltip" data-placement="top" title="ADD FRIEND ME!">
             <a href ="https://www.facebook.com/jerrymate.tolentino" target="_blank"><i class="fab fa-facebook-f"></i></a>
           </span>
         </div>
-        <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+        <div class="col-lg-2 col-md-6 mb-5 mb-md-0">
           <span class="service-icon rounded-circle mx-auto mb-3" data-toggle="tooltip" data-placement="top" title="FOLLOW ME!">
             <a href ="https://www.instagram.com/meeeeeyyyyytttt/" target="_blank"><i class="fab fa-instagram"></i></a>
           </span>

@@ -1,0 +1,60 @@
+.bubble{
+    height: 14rem !important;
+    width: 14rem !important;
+    border-style: double;
+}
+
+.bubble-5{
+    margin: 0 -190px;
+}
+
+.desc {
+    font-size: 1.15rem;
+    line-height: initial;
+    padding-top: 36px;
+}
+
+.content-section-marc{
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+.img-35{
+    width: 35% !important;
+}
+
+.about-txt{
+    font-style: italic;
+    text-align: justify;
+    font-size: 1.15rem;
+}
+
+.font-1{
+    font-size: 1rem;
+}
+.font-2{
+    font-size: 2rem;
+}
+.font-3{
+    font-size: 3rem;
+}
+
+.tab{
+    padding-right: 2rem;
+}
+
+.frame{
+    border: 20px outset;
+    padding: 10px;
+    flex: 0 0 50%;
+    margin-right: 22px;
+    max-width: 48%;
+}
+
+.bg-light-custom{
+    background-color: #e3e3e3 !important;
+}
+
+.bg-black{
+    background-color: black;
+}
