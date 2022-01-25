@@ -58,3 +58,14 @@
 .bg-black{
     background-color: black;
 }
+
+.portfolio-title {
+    color: #000000 !important;
+}
+
+.portfolio-txt{
+    background: #000000;
+    opacity: 0.6;
+    margin-bottom: 3rem !important;
+    margin-top: 3rem !important;
+}
